@@ -1,0 +1,1 @@
+import{c as f,M as i}from"./computeBVH.f0eff39e.js";import{p,a as m}from"./useBVHMap.950ec098.js";import{n as c,bb as M,b3 as r}from"./index.ca3d1873.js";async function V(o,t){if(o.done)return;const[s,n]=f(this);for(const e of s)p(e);if(o.then(()=>{for(const e of s)m(e)}),t)for(const e of n){const a=new i(new c(e,M),20);r.add(a),o.then(()=>r.remove(a))}}export{V as default};
